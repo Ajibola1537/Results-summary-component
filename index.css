@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+*{
+    
+   box-sizing: border-box;
+}
+.first{
+    text-align: center;
+    /* border: 2px solid red; */
+    background: linear-gradient( hsl(240, 79%, 68%), hsl(252, 100%, 67%) ) ;
+    border-radius: 0px 0px 50px 50px;
+    height: 350px;
+
+}
+.Rr1{
+    color: #ffffff;
+    background: linear-gradient( to bottom, hsl(234, 100%, 50%), hsla(241, 72%, 46%, 0))  ;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 125px;
+    margin-left: 105px;
+    font-size: 20px;
+}
+.Rr{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.big{
+    font-size: 60px;
+    font-weight: 800px;
+}
+.percantageRr{
+    font-size: 14px;
+    color:  #d6d2d2;
+   font-weight: 600;
+}
+.Rr2{
+  font-size: 35px;
+  color: #ffffff;
+}
+.Rr3{
+    width: 250px;
+    margin-left: 55px;
+   color:  #d6d2d2;
+   font-weight: 600;
+    
+}
+.Sum{
+    margin-top: 15px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    font-size: 33px;
+    font-weight: 800;
+    color:  hsl(224, 30%, 27%);
+}
+.RE{
+    /* border: 2px solid red ; */
+    
+}
+.Re ,.Re1, .Re2,.Re3{
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 18px;
+}
+ .Re{
+    color:  hsl(0, 100%, 67%);
+    background-color:  hsl(0, 31%, 94%);
+} 
+ /*   */
+.Re1{
+    color:  hsl(39, 100%, 56%) ;
+    background-color: hsl(0, 29%, 94%);
+} 
+ 
+ .Re2{
+    color:#10ed89; ;
+    background-color: #cef6e4;;
+
+} 
+ 
+ .Re3{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 37%, 89%) ;
+} 
+.Re4{
+    width: 350px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: hsl(224, 30%, 27%);
+    margin-left: 10px;
+    
+}
+ span{
+    color:  rgb(53, 17, 150);
+    font-size: 20px;
+   
+}
+.san{
+    color:  hsl(241, 100%, 89%);
+    font-size: 20px;
+    
+}
+.shift{
+    margin-right: 155px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    body{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: inherit;
+    
+}
+
+.first{
+    margin: auto;
+    padding: 10px;
+    background-color:  hsl(252, 100%, 67%); 
+    height: 600px;
+    width:450px ;
+    display: grid;
+    text-align: center;
+    border-radius: 30px;
+    z-index: 1;
+
+}
+.big{
+    font-size: 125px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 25px;
+    right: 8px;
+
+}
+.percantageRr{
+  color:    hsl(240, 17%, 76%);
+  font-size: 32px;
+  position: relative;
+  bottom: 93px;
+  right: 8px;
+   }
+
+.Rr{
+    font-size: 30px;
+    color:  hsl(241, 100%, 89%);
+}
+
+.Rr1{
+    color: #ffffff;
+    background-color:  hsl(241, 81%, 54%);
+    height: 230px;
+    border-radius: 50%;
+    background: linear-gradient( to bottom, hsl(234, 100%, 50%), hsla(241, 72%, 46%, 0))  ;
+     /* border: 2px solid rgb(98, 86, 86); */
+     width: 55%;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 45px;
+    margin-left: 85px;
+    box-shadow: 10px; 
+     padding-left:30px ; 
+     /* text-align: center; */
+     
+    }
+
+.Rr2{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+.Rr3{
+    color: hsl(240, 17%, 76%);
+    width: 70%;
+    font-size: 22px;
+    
+
+}
+
+.second {
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+    width: 450px;
+    background-color:  hsl(223, 33%, 96%);
+    border-radius: 0px 30px 30px 0px;
+    position: absolute;
+    left: 41%;
+    display: grid;
+    text-align: center;
+
+
+
+}
+.RE{
+     /* border: 2px solid red; */
+     display: grid;
+    grid-auto-flow: row;
+    row-gap: 0;
+    margin-top: 35px;
+    
+}
+ .Sum{
+    position: absolute;
+    left: 35px;
+    font-size: 33px;
+    font-weight: 800;
+    color:  hsl(224, 30%, 27%);
+} 
+ .Re ,.Re1, .Re2,.Re3{
+    margin:0px 25px 0px 45px;
+    padding: 0px 22px 0px 0px;
+    border-radius: 8px;
+    height: 50px;
+    width: 350px;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 20px;
+    padding-top: 8px; 
+    padding-left: 12px;
+    text-align: center;
+    
+ }
+ .Re{
+    color:  hsl(0, 100%, 67%);
+    background-color:  hsl(0, 31%, 94%);
+}
+ 
+ .Re1{
+    color:  hsl(39, 100%, 56%) ;
+    background-color: hsl(0, 29%, 94%);
+} Re2{
+    color:#10ed89; ;
+    background-color: #cef6e4;
+
+}
+ .Re3{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 37%, 89%) ;
+} 
+ 
+ .Re4{
+    color: #ffffff;
+    background-color:  hsl(224, 30%, 27%);
+    font-size: 26px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    border: transparent;
+    margin-left: 55px;
+}
+ .Re4:hover{
+    background-color: hsla(256, 72%, 46%, 1) ;
+} 
+ span{
+    color:  hsla(256, 72%, 46%, 1);
+    display: flex;
+    margin-right:1px ;
+    padding:0;
+}
+.san{
+    color:  hsl(241, 100%, 89%);
+    
+}
+.shift{
+    margin-right: 135px;
+}
+
+}
+
